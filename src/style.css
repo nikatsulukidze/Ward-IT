@@ -1,0 +1,41 @@
+.consultation:hover {
+  filter: drop-shadow(2px 2px 0px #262626) drop-shadow(4px 4px 0px #262626);
+  transform: translateY(-2%);
+}
+
+.block-1 {
+  position: relative;
+  z-index: 10;
+  top: 8rem;
+  left: 55rem;
+}
+
+.block-2 {
+  position: relative;
+  z-index: 20;
+  z-index: 10;
+  top: -3rem;
+  left: 55rem;
+}
+
+.block-3 {
+  position: relative;
+  z-index: 20;
+  z-index: 10;
+  top: 10rem;
+  left: 51rem;
+}
+.text-slide {
+  animation: text-slide 25s linear infinite;
+}
+@keyframes text-slide {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(-10%, 0);
+  }
+}
